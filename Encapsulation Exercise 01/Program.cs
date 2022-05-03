@@ -36,13 +36,13 @@ namespace Encapsulation_Exercise_01
 
 
             // Thought Experiment: How would you access the private myVar variable and print it out to the console?
-            // TODO:  
-            // Why: ? 
+            // TODO:  You would first need to create an instance of the class, then use the getter to print out the variable.
+            // Why: Since the variable is encapsulated by its private status, we cannot access it directly. This helps maintain its integrity.
 
 
 
             // TODO: Create an instance of the PII_Info class
-
+            var JohnWard = new PII_Info();
 
         }
     }
